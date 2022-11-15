@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    background-color: #F2F4FC;
+    font-family: Roboto, sans-serif;
+    
+    
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1320px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 17px;
+}
+
+.nav {
+    display: flex;
+   
+  }
+
+
+  .container a {
+    display: flex;
+    text-decoration: none;
+    margin-left: 10px;
+    align-items: center;  
+    justify-content: center;
+  }
+
+  .contact-btn {
+    background-color: #072AC8;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    font-size: 17px;
+  }
+
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+  }
+
+  .card-btn {
+    margin-top: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex; 
+  }
+
+.card-btn-1 {
+    color: #6b708d;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    
+  
+}
+
+.card-btn-2 {
+    background-color: #072AC8;
+    color: white;
+    font-size: 17px;
+    padding: 15px 30px 15px 30px;
+    
+     
+}
+
+
+  .card-hero {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+
+    .image1 {
+    max-width: 500px;
+    }
+
+   
+
+    .image3 {
+    position: absolute;
+    z-index: 1;
+    left: -19%;
+    top: -5%;
+    right: auto;
+    bottom: auto;
+    max-width: 375px;
+    }
+    
+    .image4 {
+    position: absolute;
+    z-index: 1;
+    left: auto;
+    top: auto;
+    right: -18%;
+    bottom: -32%;
+    max-width: 375px;
+    }
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1{
+    font-size: 60px;
+}
+
+.card span{
+    font-size: 20px;
+    max-width: 435px;
+}
+
+
+
+
+
+.grid-container-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 150px;
+ 
+
+}
+
+
+.projects-title {
+  margin-top: 200px;
+}
+
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  
+  
+}
+
+.projects img {
+  margin-top: 40px;
+  max-width: 350px;
+  justify-items: center;
+  
+ 
+}
+
+
+
+.grid-clients {
+  background-color: #292E47;
+  background-image: url(images/orbit.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 220px;
+  height: 620px;
+  position: relative;
+}
+
+
+
+.grid-clients h1{
+  color:white;
+}
+
+  
+.grid-clients h2 {
+  color: #FFC600;
+  line-height: 40px;
+}
+  
+
+
+
+.emoji1 {
+  max-width: 160px;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+}
+
+.emoji2 {
+  max-width: 160px;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+}
+
+.emoji3 {
+  max-width: 160px;
+  position: absolute;
+  bottom: 5%;
+  left: 9%;
+ 
+
+}
+
+.emoji4 {
+  max-width: 160px;
+  position: absolute;
+  top: 15%;
+  right: 7%;
+  
+}
+
+.imgprofile {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.card-text-profile {
+  line-height: 0px;
+}
+
+.card-text-profile p {
+color: #A2D6F9
+}
+
+.card-text-profile span {
+  color: white;
+  font-size: 13px;
+}
+
+
+
+.text-clients {
+  height: 100%;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+.text-description {
+  color:white
+}
+
+
+.text {
+  display: contents;
+}
+
+
+.card-emojis {
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) { 
+
+    body {
+        
+    
+    }
+
+    .container {
+        
+
+    }
+    
+  
+
+    .card {
+       text-align: center;
+       margin-top: -70px;
+       padding: 22px;
+    }
+
+    .card h1 {
+      font-size: 24px;
+      
+   }
+    .card span {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 25px;
+      
+   }
+
+
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+        
+    }
+
+    .card h1 {
+        font-size: 24px;
+        font-weight: bold;
+
+
+    }
+
+.card-btn {
+  flex-direction: column-reverse;
+  margin-top: 30px;
+}
+
+    .card-hero {
+        width: 100px;
+        justify-self: center;
+        margin-top: 20px;
+    }
+
+
+    .image1 {
+        width: 450px;
+        
+    }
+    
+   
+
+    .image3 {
+        width: 100px;
+        visibility: hidden;
+    }
+
+    .image4 {
+        width: 100px;
+        visibility: hidden;
+    }
+
+
+
+
+
+  }
+
+
+  @media (max-width: 390px) { 
+
+    body {
+        
+    
+    }
+
+    .container {
+        
+
+    }
+    
+  
+
+    .card {
+       text-align: center;
+       margin-top: -70px;
+       padding: 22px;
+      
+       
+    }
+
+    .card h1 {
+      font-size: 24px;
+      
+   }
+    .card span {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 15px;
+      line-height: 25px;
+      
+   }
+
+
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 0px;
+    }
+
+    .card h1 {
+        font-size: 24px;
+        font-weight: bold;
+
+
+    }
+
+.card-btn {
+  flex-direction: column-reverse;
+  margin-top: 30px;
+}
+
+    .card-hero {
+        width: 100px;
+        justify-self: center;
+        margin-top: 20px;
+    }
+
+
+    .image1 {
+        width: 320px;
+        
+    }
+    
+   
+
+    .image3 {
+        width: 100px;
+        visibility: hidden;
+    }
+
+    .image4 {
+        width: 100px;
+        visibility: hidden;
+    }
+
+
+
+
+
+  }
