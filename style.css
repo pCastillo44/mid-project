@@ -144,6 +144,7 @@ body {
 
 .projects-title {
   margin-top: 200px;
+  margin-left: 80px;
 }
 
 
@@ -151,18 +152,39 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  
+  gap: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 70px;
+ 
   
 }
+.grid-projects h2 {
+margin-left: 30px
+}
+
+.grid-projects p {
+  margin-left: 30px
+  }
+
+  .grid-projects span {
+    font-weight: bold;
+    color: #072AC8;
+    margin-left: 30px;
+   
+    }
+
 
 .projects img {
-  margin-top: 40px;
-  max-width: 350px;
+  width: 100%;
+  max-height: 240px;
   justify-items: center;
-  
- 
 }
 
+.projects {
+  background-color: white;
+  height: 380px;
+}
 
 
 .grid-clients {
@@ -233,10 +255,13 @@ body {
 
 .card-text-profile {
   line-height: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .card-text-profile p {
-color: #A2D6F9
+color: #A2D6F9;
+margin-left: 10px;
 }
 
 .card-text-profile span {
@@ -273,6 +298,108 @@ color: #A2D6F9
 
 
 
+.services-title{
+  margin-top: 200px;
+}
+
+.servicesicon1 {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
+  max-width: 350px;
+  justify-items: center;
+  border-radius: 50%;
+  background-color: #D1EDFF;
+  background-image: url(images/service1.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 20px;
+}
+
+
+.servicesicon2 {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
+  max-width: 350px;
+  justify-items: center;
+  border-radius: 50%;
+  background-color: #D1EDFF;
+  background-image: url(images/service2.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 20px;
+}
+
+
+.servicesicon3 {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 40px;
+  max-width: 350px;
+  justify-items: center;
+  border-radius: 50%;
+  background-color: #D1EDFF;
+  background-image: url(images/service3.svg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 20px 20px 20px 20px;
+}
+
+
+.services-title {
+  margin-left: 80px;
+}
+.services h2 {
+  margin-left: 30px;
+  
+}
+
+.services p {
+  margin-left: 30px;
+}
+
+.services span {
+  font-weight: bold;
+  color: #072AC8;
+  margin-left: 30px;
+
+}
+
+
+
+.grid-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 70px;
+  margin-left: 80px;
+  margin-right: 80px;
+
+}
+
+
+.services {
+  background-color: white;
+  width: 350px;
+  height: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -282,12 +409,12 @@ color: #A2D6F9
   @media (max-width: 768px) { 
 
     body {
-        
+        margin-left: 0px;
     
     }
 
     .container {
-        
+      max-width: 768px;
 
     }
     
@@ -296,18 +423,20 @@ color: #A2D6F9
     .card {
        text-align: center;
        margin-top: -70px;
-       padding: 22px;
+       
     }
 
     .card h1 {
-      font-size: 24px;
-      
+      font-size: 38px;
+      font-weight: bold;
    }
+
     .card span {
       text-align: center;
       margin-top: 20px;
-      font-size: 18px;
+      font-size: 17px;
       line-height: 25px;
+      max-width: 768px;
       
    }
 
@@ -320,17 +449,13 @@ color: #A2D6F9
         
     }
 
-    .card h1 {
-        font-size: 24px;
-        font-weight: bold;
+   
 
-
+    .card-btn {
+      flex-direction: row-reverse;
+      margin-top: 30px;
+      justify-content: center;
     }
-
-.card-btn {
-  flex-direction: column-reverse;
-  margin-top: 30px;
-}
 
     .card-hero {
         width: 100px;
@@ -340,8 +465,9 @@ color: #A2D6F9
 
 
     .image1 {
-        width: 450px;
-        
+      display: flex;
+      max-width: 550px;
+      margin-top: 30px;
     }
     
    
@@ -357,11 +483,96 @@ color: #A2D6F9
     }
 
 
+    .logo5 {
+      display: none;
+    }
 
-
+    .grid-container-logos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 20px;
+      justify-items: center;
+      grid-row-gap: 50px;
 
   }
 
+
+  .projects-title {
+    text-align: center;
+
+  }
+
+
+
+  .grid-projects {
+    justify-items: center;
+    grid-template-columns: 1fr;
+    margin-top: -40px;
+
+  }
+
+  
+  .projects {
+    background-color: white;
+  }
+
+
+  .project1 {
+  width: 100%;
+  height: 240px;
+  display: flex;
+
+  }
+
+.text h1 {
+  font-size: 40px;
+  line-height: 60px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: -20px;
+}
+
+.text h2 {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+.grid-clients {
+  height: 450px;
+  margin-top: 50px;
+  grid-template-columns: 1fr;
+}
+
+
+  .emoji1{
+    display: none;
+  }
+  
+  .emoji2{
+    display: none;
+  }
+
+  .emoji3{
+    display: none;
+  }
+
+  .emoji4{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
   @media (max-width: 390px) { 
 
