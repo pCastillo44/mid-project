@@ -40,16 +40,29 @@ body {
   .container a {
     display: flex;
     text-decoration: none;
-    margin-left: 10px;
     align-items: center;  
     justify-content: center;
   }
 
   .contact-btn {
+    border:none
+  }
+
+  .contact-btn a{
     background-color: #072AC8;
     color: white;
     padding: 15px 25px 15px 25px;
     font-size: 17px;
+    
+  }
+
+  .contact-btn a {
+    color:white
+  }
+
+  .contact-btn a:hover {
+    background-color: #323532; 
+    color: white;
   }
 
 
@@ -188,6 +201,11 @@ margin-left: 30px;
     margin-left: 30px;
    
     }
+
+    .projects span {
+      margin-right: auto;
+    }
+    
 
 
 .projects img {
@@ -682,9 +700,6 @@ flex-direction: column;
 
 
 
-
-
-
 /* RESPONSIVE */
 
 
@@ -794,6 +809,7 @@ flex-direction: column;
     margin-right: 0px;
   }
 
+ 
   
   .projects {
     background-color: white;
