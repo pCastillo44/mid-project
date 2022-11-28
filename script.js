@@ -38,3 +38,7 @@ async function callApi() {
   // HASTA AQUI PRIMER INDEX
 }
 callApi();
+
+
+// Validacion Email
+

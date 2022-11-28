@@ -48,3 +48,12 @@ alienDescription.innerHTML = data.results[12].location.name;
 
 }
 callApi();
+
+
+// ACTUAL DATE
+
+date = new Date();
+year = date.getFullYear();
+month = date.getMonth() + 1;
+day = date.getDate();
+document.getElementById("actualDate").innerHTML = day + "/" + month + "/" + year;
