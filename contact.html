@@ -35,7 +35,7 @@
 
 
  <!-- FORMULARIO -->
-
+ <form id="email-form" name="email-form" data-name="Email Form" method="get" aria-label="Email Form">
     <div class="grid-form">
         <div class="contactus-title">
             <h1>Contact Us</h1>
@@ -53,19 +53,23 @@
             </div>
             <div class="phone">
                 <label for="phonetext" class="contact-title">Phone</label>
-                <input class="formphone-btn" type="text" placeholder="Enter your phone">
+                <input class="formphone-btn" type="text"  onclick="phonenumber()" placeholder="Enter your phone">
             </div>
         </div>
 
         <div class="message">
             <label for="messagetext" class="contact-title">Message *</label>
-            <input class="formmessage-btn" type="text" placeholder="Write your message here">
+            <input class="formmessage-btn" type="text" required="required" placeholder="Write your message here">
         </div>
 
-        <div class="form-button">
-            <a href="#" class="card-button1">Submit</a>
-        </div>
+        <button class="form-button">
+          <a class="card-button1"><input type="submit" value="submit" placeholder="Submit"></a>
+        </button>
 
+        <!--<div class="form-button">-->
+         <!-- <a href="#" class="card-button1" onClick="placeOrder()">Submit</a> -->
+        <!--</div> -->
+      </form>
     </div>
 
 
