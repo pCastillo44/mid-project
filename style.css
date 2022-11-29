@@ -503,7 +503,9 @@ flex-direction: column;
 
 .card-button1 {
   color: white;
-  
+  background-color: #072AC8;
+  border: none;
+  font-size: 17px;
 }
 
 
@@ -722,14 +724,10 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   padding: 25px 16px;
-  width: 100%;
+  width: 102%;
   margin-top: 30px;
   border: none;
 }
-
-
-
-
 
 
 
